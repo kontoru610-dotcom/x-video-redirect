@@ -4,56 +4,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Video Player</title>
 
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<title>Watch Video</title>
 
-body {
-  background: #000;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+<meta name="twitter:card" content="player">
+<meta name="twitter:title" content="Watch Video">
+<meta name="twitter:description" content="Watch this video">
+<meta name="twitter:image" content="https://kontoru610-dotcom.github.io/x-video-redirect/thumbnail.jpg">
+<meta name="twitter:player" content="https://kontoru610-dotcom.github.io/x-video-redirect/player.html">
+<meta name="twitter:player:width" content="464">
+<meta name="twitter:player:height" content="848">
+<meta name="twitter:player:stream" content="https://kontoru610-dotcom.github.io/x-video-redirect/video.mp4">
+<meta name="twitter:player:stream:content_type" content="video/mp4">
 
-.video-container {
-  width: 100%;
-  max-width: 464px;
-  cursor: pointer;
-  position: relative;
-}
-
-video {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-</style>
 </head>
-
 <body>
-
-<div class="video-container" id="redirect">
-
-  <video autoplay muted loop playsinline preload="auto">
-    <source src="./video.mp4" type="video/mp4">
-    Browser tidak mendukung video.
-  </video>
-
-</div>
-
-<script>
-document.getElementById("redirect")
-.addEventListener("click", function() {
-  window.location.href =
-  "https://uc-share.com/s/8bc5cfe88ed74?la=id";
-});
-</script>
-
+<p>Watch Video</p>
 </body>
 </html>
